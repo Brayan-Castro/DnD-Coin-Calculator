@@ -79,7 +79,7 @@ function ConverterOuro() {
     var valorOuro = parseFloat(valoEW);
 
     var conversaoPrataQEW = valorOuro * 100;
-    var conversaoElectroQEW = valorOuro * 50;
+    var conversaoElectroQEW = valorOuro * 10;
     var conversaoOuroQEW = valorOuro * 2;
     var conversaoPlatinaQEW = valorOuro / 100;
 
