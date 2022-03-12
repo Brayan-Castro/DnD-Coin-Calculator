@@ -5,55 +5,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!--Cobre para Resto-->
-    <h2 class="cobreResto">Converter Cobre</h2>
-    <input type="number" id="valorcobre" size="2">
-    <button type="submit" onclick="ConverterCobre()">Converter</button>
-    <div id="valorcobre"></div>
-    <div id="valorprata"></div>
-    <div id="valorelectro"></div>
-    <div id="valorouro"></div>
-    <div id="valorplatina"></div>
-
-    <!--Prata para Resto-->
-    <h2 class="prataResto">Converter Prata</h2>
-    <input type="number" id="valorpica" size="2">
-    <button type="submit" onclick="ConverterPrata()">Converter</button>
-    <div id="valorcobreQ"></div>
-    <div id="valorprataQ"></div>
-    <div id="valorelectroQ"></div>
-    <div id="valorouroQ"></div>
-    <div id="valorplatinaQ"></div>
-
-    <!--Electro para Resto-->
-    <h2 class="ElectroResto">Converter Electro</h2>
-    <input type="number" id="valorelectropica" size="2">
-    <button type="submit" onclick="ConverterElectro()">Converter</button>
-    <div id="valorcobreQE"></div>
-    <div id="valorprataQE"></div>
-    <div id="valorelectroQE"></div>
-    <div id="valorouroQE"></div>
-    <div id="valorplatinaQE"></div>
-
-    <!--Ouro para Resto-->
-    <h2 class="OuroResto">Converter Ouro</h2>
-    <input type="number" id="valorouropica" size="2">
-    <button type="submit" onclick="ConverterOuro()">Converter</button>
-    <div id="valorcobreQEW"></div>
-    <div id="valorprataQEW"></div>
-    <div id="valorelectroQEW"></div>
-    <div id="valorouroQEW"></div>
-    <div id="valorplatinaQEW"></div>
-
-    <!--Platina para Resto-->
-    <h2 class="platinaResto">Converter Platina</h2>
-    <input type="number" id="valorplatinapica" size="2">
-    <button type="submit" onclick="ConverterPlatina()">Converter</button>
-    <div id="valorcobreQEWS"></div>
-    <div id="valorprataQEWS"></div>
-    <div id="valorelectroQEWS"></div>
-    <div id="valorouroQEWS"></div>
-    <div id="valorplatinaQEWS"></div>
+    <h1 class="main_txt">D&D Coin Calculator</h1>
+<div class="calculator">
+    <div class="moeda">
+                <!--Cobre para Resto-->
+                <h2 class="cobreResto">Converter Cobre</h2>
+                <input type="number" id="valorcobre" class="input">
+                <button type="submit" onclick="ConverterCobre()" class="button">Converter</button>
+                <div id="valorcobre"></div>
+                <div id="valorprata"></div>
+                <div id="valorelectro"></div>
+                <div id="valorouro"></div>
+                <div id="valorplatina"></div>
+    </div>
+    <div class="moeda">
+                <!--Prata para Resto-->
+                <h2 class="prataResto">Converter Prata</h2>
+                <input type="number" id="valorpica" size="2" class="input">
+                <button type="submit" onclick="ConverterPrata()" class="button">Converter</button>
+                <div id="valorcobreQ"></div>
+                <div id="valorprataQ"></div>
+                <div id="valorelectroQ"></div>
+                <div id="valorouroQ"></div>
+                <div id="valorplatinaQ"></div>
+    </div>
+    <div class="moeda">
+                <!--Electro para Resto-->
+                <h2 class="ElectroResto">Converter Electro</h2>
+                <input type="number" id="valorelectropica" size="2" class="input">
+                <button type="submit" onclick="ConverterElectro()" class="button">Converter</button>
+                <div id="valorcobreQE"></div>
+                <div id="valorprataQE"></div>
+                <div id="valorelectroQE"></div>
+                <div id="valorouroQE"></div>
+                <div id="valorplatinaQE"></div>
+    </div>
+    <div class="moeda">
+                <!--Ouro para Resto-->
+                <h2 class="OuroResto">Converter Ouro</h2>
+                <input type="number" id="valorouropica" size="2" class="input">
+                <button type="submit" onclick="ConverterOuro()" class="button">Converter</button>
+                <div id="valorcobreQEW"></div>
+                <div id="valorprataQEW"></div>
+                <div id="valorelectroQEW"></div>
+                <div id="valorouroQEW"></div>
+                <div id="valorplatinaQEW"></div>
+    </div>
+    <div class="moeda">
+                <!--Platina para Resto-->
+                <h2 class="platinaResto">Converter Platina</h2>
+                <input type="number" id="valorplatinapica" size="2" class="input">
+                <button type="submit" onclick="ConverterPlatina()" class="button">Converter</button>
+                <div id="valorcobreQEWS"></div>
+                <div id="valorprataQEWS"></div>
+                <div id="valorelectroQEWS"></div>
+                <div id="valorouroQEWS"></div>
+                <div id="valorplatinaQEWS"></div>
+    </div>
+</div>
+<div class="footer">
+    <p>Copyright © Brayan William Castro 2022</p>
+</div>
 </body>
 <script type="text/javascript" src="conversor.js">
 </script>
+</html>

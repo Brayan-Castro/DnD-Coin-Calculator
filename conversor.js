@@ -13,10 +13,10 @@ function ConverterCobre() {
     var Ouro = document.getElementById("valorouro")
     var Platina = document.getElementById("valorplatina")
 
-    var convertidoPrata = "o valor em Prata é: " + conversaoPrata;
-    var convertidoElectro = "o valor em Electro é: " + conversaoElectro;
-    var convertidoOuro = "o valor em Ouro é: " + conversaoOuro;
-    var convertidoPlatina = "o valor em Platina é: " + conversaoPlatina;
+    var convertidoPrata = "O valor em Prata é: " + conversaoPrata;
+    var convertidoElectro = "O valor em Electro é: " + conversaoElectro;
+    var convertidoOuro = "O valor em Ouro é: " + conversaoOuro;
+    var convertidoPlatina = "O valor em Platina é: " + conversaoPlatina;
 
     Prata.innerHTML = convertidoPrata;
     Electro.innerHTML = convertidoElectro;
@@ -38,10 +38,10 @@ function ConverterPrata() {
     var OuroQ = document.getElementById("valorouroQ")
     var PlatinaQ = document.getElementById("valorplatinaQ")
 
-    var convertidoPrataQ = "o valor em Cobre é: " + conversaoPrataQ;
-    var convertidoElectroQ = "o valor em Electro é: " + conversaoElectroQ;
-    var convertidoOuroQ = "o valor em Ouro é: " + conversaoOuroQ;
-    var convertidoPlatinaQ = "o valor em Platina é: " + conversaoPlatinaQ;
+    var convertidoPrataQ = "O valor em Cobre é: " + conversaoPrataQ;
+    var convertidoElectroQ = "O valor em Electro é: " + conversaoElectroQ;
+    var convertidoOuroQ = "O valor em Ouro é: " + conversaoOuroQ;
+    var convertidoPlatinaQ = "O valor em Platina é: " + conversaoPlatinaQ;
 
     PrataQ.innerHTML = convertidoPrataQ;
     ElectroQ.innerHTML = convertidoElectroQ;
@@ -63,10 +63,10 @@ function ConverterElectro() {
     var OuroQ = document.getElementById("valorouroQE")
     var PlatinaQ = document.getElementById("valorplatinaQE")
 
-    var convertidoPrataQE = "o valor em Cobre é: " + conversaoPrataQE;
-    var convertidoElectroQE = "o valor em Prata é: " + conversaoElectroQE;
-    var convertidoOuroQE = "o valor em Ouro é: " + conversaoOuroQE;
-    var convertidoPlatinaQE = "o valor em Platina é: " + conversaoPlatinaQE;
+    var convertidoPrataQE = "O valor em Cobre é: " + conversaoPrataQE;
+    var convertidoElectroQE = "O valor em Prata é: " + conversaoElectroQE;
+    var convertidoOuroQE = "O valor em Ouro é: " + conversaoOuroQE;
+    var convertidoPlatinaQE = "O valor em Platina é: " + conversaoPlatinaQE;
 
     PrataQ.innerHTML = convertidoPrataQE;
     ElectroQ.innerHTML = convertidoElectroQE;
@@ -88,10 +88,10 @@ function ConverterOuro() {
     var OuroQW = document.getElementById("valorouroQEW")
     var PlatinaQW = document.getElementById("valorplatinaQEW")
 
-    var convertidoPrataQEW = "o valor em Cobre é: " + conversaoPrataQEW;
-    var convertidoElectroQEW = "o valor em Prata é: " + conversaoElectroQEW;
-    var convertidoOuroQEW = "o valor em Electro é: " + conversaoOuroQEW;
-    var convertidoPlatinaQEW = "o valor em Platina é: " + conversaoPlatinaQEW;
+    var convertidoPrataQEW = "O valor em Cobre é: " + conversaoPrataQEW;
+    var convertidoElectroQEW = "O valor em Prata é: " + conversaoElectroQEW;
+    var convertidoOuroQEW = "O valor em Electro é: " + conversaoOuroQEW;
+    var convertidoPlatinaQEW = "O valor em Platina é: " + conversaoPlatinaQEW;
 
     PrataQW.innerHTML = convertidoPrataQEW;
     ElectroQW.innerHTML = convertidoElectroQEW;
@@ -113,10 +113,10 @@ function ConverterPlatina() {
     var OuroQWS = document.getElementById("valorouroQEWS")
     var PlatinaQWS = document.getElementById("valorplatinaQEWS")
 
-    var convertidoPrataQEWS = "o valor em Cobre é: " + conversaoPrataQEWS;
-    var convertidoElectroQEWS = "o valor em Prata é: " + conversaoElectroQEWS;
-    var convertidoOuroQEWS = "o valor em Electro é: " + conversaoOuroQEWS;
-    var convertidoPlatinaQEWS = "o valor em Ouro é: " + conversaoPlatinaQEWS;
+    var convertidoPrataQEWS = "O valor em Cobre é: " + conversaoPrataQEWS;
+    var convertidoElectroQEWS = "O valor em Prata é: " + conversaoElectroQEWS;
+    var convertidoOuroQEWS = "O valor em Electro é: " + conversaoOuroQEWS;
+    var convertidoPlatinaQEWS = "O valor em Ouro é: " + conversaoPlatinaQEWS;
 
     PrataQWS.innerHTML = convertidoPrataQEWS;
     ElectroQWS.innerHTML = convertidoElectroQEWS;

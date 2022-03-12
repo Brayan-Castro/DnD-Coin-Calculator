@@ -1,0 +1,64 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.main_txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+.calculator {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+.moeda {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    left: 0%;
+    height: 10px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    overflow:hidden;
+    clear: both;
+    box-shadow: 2px 2px 2px 3px black;
+}
+.button {
+    border: none;
+    background-color: #F5F8F3;
+    width: 100px;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 4px;
+}
+input {
+    border-radius: 4px;
+}
